@@ -1,0 +1,79 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.15
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Nov  6 2025, 07:48:09) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 9.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:689: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\shlok\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": "", "start_index": 1}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [], "route_rows_and_columns": false, "template_path": "", "generate_outline": true, "outline_delta": 3.0}
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'/COL4', '/ROW3'}): ['SW46'], frozenset({'/ROW3', '/COL7'}): ['SW48'], frozenset({'/ROW0', '/COL7'}): ['SW8'], frozenset({'/COL6', '/ROW0'}): ['SW7'], frozenset({'/COL12', '/ROW1'}): ['SW27'], frozenset({'/ROW2', '/COL3'}): ['SW32'], frozenset({'/COL3', '/ROW0'}): ['SW4'], frozenset({'/COL3', '/ROW1'}): ['SW18'], frozenset({'/COL11', '/ROW1'}): ['SW26'], frozenset({'/COL4', '/ROW0'}): ['SW5'], frozenset({'/ROW0', '/COL13'}): ['SW14'], frozenset({'/ROW0', '/COL8'}): ['SW9'], frozenset({'/COL2', '/ROW2'}): ['SW31'], frozenset({'/COL2', '/ROW4'}): ['SW56'], frozenset({'/ROW3', '/COL13'}): ['SW53'], frozenset({'/ROW2', '/COL8'}): ['SW37'], frozenset({'/COL0', '/ROW1'}): ['SW15'], frozenset({'/ROW3', '/COL6'}): ['SW47'], frozenset({'/ROW1', '/COL1'}): ['SW16'], frozenset({'/COL4', '/ROW1'}): ['SW19'], frozenset({'/COL9', '/ROW1'}): ['SW24'], frozenset({'/ROW4', '/COL10'}): ['SW59'], frozenset({'/ROW3', '/COL11'}): ['SW52'], frozenset({'/ROW0', '/COL10'}): ['SW11'], frozenset({'/COL9', '/ROW0'}): ['SW10'], frozenset({'/ROW2', '/COL13'}): ['SW41'], frozenset({'/COL5', '/ROW2'}): ['SW34'], frozenset({'/COL0', '/ROW0'}): ['SW1'], frozenset({'/ROW4', '/COL1'}): ['SW55'], frozenset({'/ROW2', '/COL9'}): ['SW38'], frozenset({'/COL13', '/ROW1'}): ['SW28'], frozenset({'/ROW3', '/COL8'}): ['SW49'], frozenset({'/COL13', '/ROW4'}): ['SW61'], frozenset({'/COL5', '/ROW1'}): ['SW20'], frozenset({'/ROW3', '/COL2'}): ['SW44'], frozenset({'/COL11', '/ROW4'}): ['SW60'], frozenset({'/COL9', '/ROW4'}): ['SW58'], frozenset({'/ROW1', '/COL7'}): ['SW22'], frozenset({'/COL4', '/ROW2'}): ['SW33'], frozenset({'/COL2', '/ROW1'}): ['SW17'], frozenset({'/ROW3', '/COL9'}): ['SW50'], frozenset({'/ROW0', '/COL12'}): ['SW13'], frozenset({'/COL0', '/ROW4'}): ['SW54'], frozenset({'/COL2', '/ROW0'}): ['SW3'], frozenset({'/COL11', '/ROW0'}): ['SW12'], frozenset({'/ROW3', '/COL1'}): ['SW43'], frozenset({'/COL6', '/ROW4'}): ['SW57'], frozenset({'/ROW2', '/COL10'}): ['SW39'], frozenset({'/ROW2', '/COL7'}): ['SW36'], frozenset({'/COL5', '/ROW0'}): ['SW6'], frozenset({'/ROW3', '/COL10'}): ['SW51'], frozenset({'/ROW1', '/COL8'}): ['SW23'], frozenset({'/ROW3', '/COL0'}): ['SW42'], frozenset({'/ROW0', '/COL1'}): ['SW2'], frozenset({'/ROW2', '/COL1'}): ['SW30'], frozenset({'/ROW2', '/COL0'}): ['SW29'], frozenset({'/ROW3', '/COL3'}): ['SW45'], frozenset({'/COL6', '/ROW1'}): ['SW21'], frozenset({'/ROW1', '/COL10'}): ['SW25'], frozenset({'/ROW2', '/COL11'}): ['SW40'], frozenset({'/ROW2', '/COL6'}): ['SW35']})
+DEBUG: key_placer.py:145: Diodes by switch: {'SW14': ['D14'], 'SW44': ['D44'], 'SW20': ['D20'], 'SW10': ['D10'], 'SW22': ['D22'], 'SW26': ['D26'], 'SW58': ['D58'], 'SW42': ['D42'], 'SW46': ['D46'], 'SW7': ['D7'], 'SW45': ['D45'], 'SW41': ['D41'], 'SW30': ['D30'], 'SW6': ['D6'], 'SW1': ['D1'], 'SW5': ['D5'], 'SW28': ['D28'], 'SW11': ['D11'], 'SW27': ['D27'], 'SW35': ['D35'], 'SW32': ['D32'], 'SW39': ['D39'], 'SW43': ['D43'], 'SW48': ['D48'], 'SW57': ['D57'], 'SW24': ['D24'], 'SW47': ['D47'], 'SW29': ['D29'], 'SW3': ['D3'], 'SW36': ['D36'], 'SW2': ['D2'], 'SW56': ['D56'], 'SW60': ['D60'], 'SW37': ['D37'], 'SW17': ['D17'], 'SW31': ['D31'], 'SW34': ['D34'], 'SW8': ['D8'], 'SW55': ['D55'], 'SW50': ['D50'], 'SW54': ['D54'], 'SW9': ['D9'], 'SW25': ['D25'], 'SW38': ['D38'], 'SW21': ['D21'], 'SW52': ['D52'], 'SW18': ['D18'], 'SW40': ['D40'], 'SW59': ['D59'], 'SW4': ['D4'], 'SW16': ['D16'], 'SW49': ['D49'], 'SW19': ['D19'], 'SW51': ['D51'], 'SW33': ['D33'], 'SW53': ['D53'], 'SW15': ['D15'], 'SW12': ['D12'], 'SW61': ['D61'], 'SW23': ['D23'], 'SW13': ['D13']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in C:\Users\shlok\Downloads\Aegis60\Aegis60.kicad_pcb
+INFO: key_placer.py:621: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+INFO: key_placer.py:665: Got connection template: Track [(-6090000, 5080000) (-6090000, 2640000)], Track [(-6090000, 2640000) (-9520000, -790000)], Track [(7360000, 2540000) (7360000, -11747500)], Track [(7360000, -11747500) (2597500, -16510000)], Track [(2597500, -33178750) (2597500, -16510000)], Track [(216250, -35560000) (2597500, -33178750)], Track [(216250, -35560000) (216250, -45213750)], Track [(216250, -45213750) (-4546250, -49976250)], Track [(-4546250, -49976250) (-4546250, -54610000)], Track [(4978750, -64135000) (-4546250, -54610000)], Track [(4978750, -73660000) (4978750, -64135000)], Track [(4978750, -77108750) (4978750, -73660000)], Track [(330000, -81750000) (4971250, -77108750)], Track [(-102440000, -81750000) (330000, -81750000)], Track [(-104420000, -83730000) (-102440000, -81750000)], Track [(4971250, -77108750) (4978750, -77108750)]
+INFO: kle_serial.py:1016: User layout: [['~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'w': 2}, 'Backspace'], [{'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\'], [{'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter'], [{'w': 2.25}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 2.75}, 'Shift'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4, 'w': 1.25}, 'Alt', {'w': 1.25}, 'Win', {'w': 1.25}, 'Menu', {'w': 1.25}, 'Ctrl']]
+DEBUG: key_placer.py:751: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:757: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1110: Layout with: x_ortholinear_keys=19, y_ortholinear_keys=61, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1135: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW48 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW49 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW50 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW51 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW52 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW53 footprint position: (288131250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW54 footprint position: (40481250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW55 footprint position: (64293750, 114300000)
+DEBUG: board_modifier.py:94: Setting SW56 footprint position: (88106250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW57 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:94: Setting SW58 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW59 footprint position: (254793750, 114300000)
+DEBUG: board_modifier.py:94: Setting SW60 footprint position: (278606250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW61 footprint position: (302418750, 114300000)
+INFO: key_placer.py:1123: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+INFO: edge_generator.py:140: Running board edge generation around selected footprints
