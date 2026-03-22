@@ -71,6 +71,10 @@ Important files in this repository:
 - `production/designators.csv`
 - `production/netlist.ipc`
 
+## CAD
+
+OnShape: [link](https://cad.onshape.com/documents/3631dcb843d220359551c32b/w/64ccd39e08fb4eede3b1f39f/e/fad0ee0c4f93314d35213121)
+
 ## Firmware note
 
 A KMK starter firmware is included in this repo:
