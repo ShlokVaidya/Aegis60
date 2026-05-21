@@ -1,9 +1,12 @@
 # Aegis60
-
 Aegis60 is my custom 60% mechanical keyboard project built around an RP2040-ZERO controller.
-
+<p>
 I wanted a keyboard that felt clean and simple like a classic 60%, but still let me fully understand how the electronics actually work (matrix, diodes, routing, and firmware pin mapping), not just buy a kit and screw it together.
+</p>
+<br>
 
+![1000068775](https://stasis.hackclub-assets.com/images/1779384880451-q9rmur.jpg)
+<br>
 ## Why I made this
 
 I am 17 and I use my keyboard for school every day, so I wanted to build one that is actually mine from scratch.
@@ -56,6 +59,14 @@ Current hardware summary:
 ![image](https://stasis.hackclub-assets.com/images/1774182173133-1pb0pw.png)
 
 ![image](https://stasis.hackclub-assets.com/images/1774182199061-aq1ren.png)
+
+### Build
+
+![1000068570](https://stasis.hackclub-assets.com/images/1779384874061-73mgo6.jpg)
+
+![1000068589](https://stasis.hackclub-assets.com/images/1779384876716-if116b.jpg)
+
+![1000068775](https://stasis.hackclub-assets.com/images/1779384880451-q9rmur.jpg)
 
 ## Repo file checklist
 
